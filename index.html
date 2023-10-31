@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code Quiz</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+</head>
+<body>
+  
+  <div class="quiz-container">
+    <div class="quiz-header">
+      <h1>Code Quiz</h1> <!-- Add a title to the quiz -->
+      <button id="start-btn">Start</button> <!-- Add a button to start the quiz -->
+      <div id="high-score"></div>  
+    </div>
+    <div class="quiz-body"> <!-- Add a div to hold the questions -->
+      <div id="question"></div> 
+      <input type="text" id="user-answer" placeholder="Enter your answer">
+    </div>
+    <div class="quiz-footer">
+      <p id="timer">Time: <span id="time-left"></span></p>
+      <input type="text" id="initials" placeholder="Enter your initials">
+      <button id="submit-score">Submit Score</button>
+      <!-- Add a timer to the quiz -->
+    </div>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
